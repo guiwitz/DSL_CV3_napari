@@ -1,0 +1,14 @@
+name: dslnapari
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - scikit-image
+  - pandas
+  - matplotlib
+  - napari
+  - pyqt
+  - aicsimageio
+  - pip:
+      - napari-crop
