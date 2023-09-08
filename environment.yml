@@ -10,5 +10,6 @@ dependencies:
   - napari
   - pyqt
   - aicsimageio
+  - ipywidgets
   - pip:
       - napari-crop
