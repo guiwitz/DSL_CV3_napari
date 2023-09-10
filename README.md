@@ -4,15 +4,17 @@
 This course is an introduction to the Python n-dimensional image visualizer napari. It is part of the [Data Science Lab](https://www.dsl.unibe.ch/) course on Computer Vision with Python. The goal of the course is to familiarize participants with napari a powerful image visualization software originally developed by the bioimaging community but usable with any type of images from other fields as well. The course is composed of three parts:
 - main functionalities of napari and its layer system
 - possibilities offered by napari extensions called plugins
-- how to develop a plugin
+- how to develop a plugin: this material has been entirely developed by Kevin, Yamauchi and is accessible [here](https://kevinyamauchi.github.io/open-image-data/tutorials/neubias_plugins/make_a_simple_plugin.html)
 
-In each part, explanations are provided in notebooks that one can just read or execute and modify. Exercises matching the content are suggested at the end of each notebook.
+In each part, explanations are provided in notebooks that one can just read or execute and modify. Exercises matching the content are suggested at the end of each notebook. The last part of the course is more tutorial-like with explanations to follow step by step.
+
+The notebook of Chapter 5 has been developed by Kevin Yamauchi and is accessible [here](https://github.com/kevinyamauchi/neubias-napari-workshop). A copy of it is provided in this repository for convenience (license [BSD-3](https://github.com/kevinyamauchi/neubias-napari-workshop/blob/main/LICENSE)).
 
 ## Getting the material
 
 To use all notebooks locally, you can simply clone (if you know git) or download the repository by using the green "Code" button at the top right of the repository. Place the folder in easily reachable location on your computer.
 
-You can download all necessary data from [this link](). Place the main data folder then in the main folder of the downloaded repository for paths to be correct.
+You can find the material for the last part of the course here: https://kevinyamauchi.github.io/open-image-data/tutorials/neubias_plugins/make_a_simple_plugin.html
 
 ## Setting up an environment
 
