@@ -48,6 +48,11 @@ Finally you can start Jupyterlab using:
 
 This should automatically open a Jupyterlab session in your favorite browser. If not, copy the address appearing in the terminal starting with ```http://localhost:8888...``` in your browser.
 
+## Going further
+
+You will find plenty of interesting material to discover napari more in depth. The napari website itself has for example a series of [how-to guides](https://napari.org/stable/howtos/index.html) and [tutorials](https://napari.org/stable/tutorials/index.html). You can also find other courses for different levels. [This one](https://www.fabriziomusacchio.com/teaching/teaching_bioimage_analysis/) by Fabrizio Musacchio is very recent and contains many very practical examples.
+
+
 ## Google Colab
 
 Note that unlike the other parts of the course, you cannot run the notebooks on Colab as napari is a desktop application that cannot run remotely.
