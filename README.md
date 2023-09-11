@@ -40,7 +40,7 @@ if you have mamba installed or
 
 This creates an environment called ```dslnapari``` that you then need to activate (here mamba or conda doesn't matter):
 
-    conda activate dslpytorch
+    conda activate dslnapari
 
 Finally you can start Jupyterlab using:
 
