@@ -1,0 +1,9 @@
+format: jb-book
+root: README.md
+chapters:
+- file: notebooks/01-napari_introduction
+- file: notebooks/02-napari_layers
+- file: notebooks/03-napari_using_plugins
+- file: notebooks/04-napari_magicgui
+- file: notebooks/05_spot_detection_tutorial_beginner
+- file: notebooks/06-Create_plugin
