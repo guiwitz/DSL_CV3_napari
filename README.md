@@ -18,35 +18,27 @@ You can find the material for the last part of the course here: https://kevinyam
 
 ## Setting up an environment
 
-A series of packages is necessary to run the content of this notebook. We highly recommend to install packages within an environment such as provided by conda. There are multiple ways to install conda and if you don't yet have a version installed we strongly recommend to use mambaforge which will install the fast environment solver mamba. You can find installers at [this link](https://github.com/conda-forge/miniforge#mambaforge). 
+A series of packages is necessary to run the content of this notebook. We highly recommend to install packages within an environment such as provided by conda. There are multiple ways to install conda and if you don't yet have a version installed we strongly recommend to use miniforge. You can find installers at [this link](https://github.com/conda-forge/miniforge?tab=readme-ov-file#install). 
 
-Note that you can use mamba also from an older conda installation. For this follow these steps (described [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community):
-1. Update conda:
-    ```conda update -n base conda```
-2. Install mamba:
-    ```conda install -n base conda-libmamba-solver```
-3. Use mamba as a solver:
-    ```conda config --set solver libmamba```
-
-Once you have conda/mamba installed, open a terminal where you have access to conda (i.e. the beginning of the line on your terminal window should indicate ```(base)```). On MacOS or Linux, your regular terminal should work. On Windows, depending how you installed conda, you might only have access to it from a terminal called "XXX Prompt" where XXX stands for Anaconda, Miniforge etc.
+Once you have conda installed, open a terminal where you have access to conda (i.e. the beginning of the line on your terminal window should indicate ```(base)```). On MacOS or Linux, your regular terminal should work. On Windows, depending how you installed conda, you might only have access to it from a terminal called "XXX Prompt" e.g. "Miniforge Prompt".
 
 Then in that terminal move to the folder of the repository you downloaded previously (use ```cd path_to_your_folder```). In the main folder you will find an [environment.yml](environment.yml) file that contains infos about all packages to install. You can simply create the necessary environment using:
 
-    mamba env create -f environment.yml
-
-if you have mamba installed or
-
     conda env create -f environment.yml
 
-This creates an environment called ```dslnapari``` that you then need to activate (here mamba or conda doesn't matter):
+This creates an environment called ```dslnapari``` that you then need to activate:
 
     conda activate dslnapari
 
-Finally you can start Jupyterlab using:
+Finally you can start napari with:
+
+    napari
+
+You can also launch napari from a Jupyter notebook. In that case, you need to launch Jupyter Lab:
 
     jupyter lab
 
-This should automatically open a Jupyterlab session in your favorite browser. If not, copy the address appearing in the terminal starting with ```http://localhost:8888...``` in your browser.
+This should automatically open a Jupyter Lab session in your browser. If not, copy the address appearing in the terminal starting with ```http://localhost:8888...``` in your browser.
 
 ## Going further
 

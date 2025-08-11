@@ -2,14 +2,12 @@ name: dslnapari
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.12
   - jupyterlab
   - scikit-image
   - pandas
   - matplotlib
   - napari
   - pyqt
-  - aicsimageio
-  - ipywidgets
   - pip:
-      - napari-crop
+      - napari-skimage
