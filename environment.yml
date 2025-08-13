@@ -9,6 +9,9 @@ dependencies:
   - matplotlib
   - napari
   - pyqt
+  - copier 
+  - jinja2-time
+  - npe2
   - pip
   - pip:
       - napari-skimage
